@@ -1,0 +1,24 @@
+{
+  "name": "teacher_course_assignment",
+  "version": "1.0.0",
+  "description": "Teachers and Courses management system.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config --exec babel-node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  }
+}
